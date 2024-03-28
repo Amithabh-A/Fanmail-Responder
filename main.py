@@ -2,8 +2,11 @@ import streamlit as st
 import query as po
 from openai import OpenAI
 st.title("Gilderoy's Fan Service")
-
-client = OpenAI(api_key="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")
+with open("pwd.pass",'r') as file:
+    pwd = file.readlines()
+    key = "" + pwd[0].strip()
+    file.close()
+client = OpenAI(api_key=key)
 subject = st.text_input("Enter a subject")
 if subject.rstrip()!="":
     query = po.prompt(client,str(subject))
