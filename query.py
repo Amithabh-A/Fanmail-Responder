@@ -18,7 +18,3 @@ def prompt(client,prom):
     messages=[{"role": "system", "content": fine_query},
     {"role": "user", "content": prom}])
     return completion.choices[0].message.content
-
-
-
-
