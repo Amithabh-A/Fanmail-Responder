@@ -21,5 +21,9 @@ streamlit run main.py
 >```
 >pip install <dependency_name>
 >```
+To exit from python env, run 
+```
+deactivate
+```
 Also, 
 we didn't expose openapi key. So you might need a key to actually run it from your local machine ig...
