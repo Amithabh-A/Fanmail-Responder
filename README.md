@@ -19,4 +19,4 @@ run main.py using streamlit
 >pip install <dependency_name>
 >```
 Also, 
-we didn't expose openapi key. 
+we didn't expose openapi key. So you might need a key to actually run it from your local machine ig...
