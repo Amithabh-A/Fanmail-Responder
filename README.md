@@ -13,8 +13,10 @@ activate python env
 ```
 source venv/bin/activate
 ```
-run main.py
+run main.py using streamlit
 >If they are asking for any dependencies, please install it using pip
 >```
 >pip install <dependency_name>
 >```
+Also, 
+we didn't expose openapi key. 
